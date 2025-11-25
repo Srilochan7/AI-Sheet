@@ -160,6 +160,14 @@ This cheatsheet serves as a practical roadmap and resource guide for anyone look
 
 ---
 
+### 🛠 **P4: Chatgpt from scratch**
+
+| Project | Description | Tech Stack |
+|---------|-------------|------------|
+| **Build an LLM from scratch** | Build an LLM using transformers arch | [Goat](https://youtu.be/kCc8FmEb1nY?si=Ghlzg6hu76RdvUoK) |
+
+---
+
 ## **12. Introduction to Gen AI**
 
 | S.No | Topic | Description | Resources |
@@ -170,7 +178,68 @@ This cheatsheet serves as a practical roadmap and resource guide for anyone look
 
 ---
 
-## **13. Large Language Models (LLMs) - Advanced**
+## **13. Introduction to LangChain**
+
+| S.No | Topic | Description | Resources |
+|------|-------|-------------|-----------|
+| 31 | **LangChain Fundamentals** | Components, Chains, Agents, Memory | [LangChain Docs](https://python.langchain.com/docs/introduction/) · [LangChain Tutorial](https://youtu.be/X0btK9X0Xnk) |
+| 32 | **LLM Integration** | OpenAI, Ollama, Hugging Face, Groq integration | [Ollama Setup](https://ollama.ai/) · [Groq API](https://groq.com/) |
+| 33 | **Prompt Engineering** | Zero-shot, few-shot, chain-of-thought, prompt optimization | [OpenAI Cookbook](https://github.com/openai/openai-cookbook) · [Prompt Engineering Guide](https://www.promptingguide.ai/) |
+
+### 🛠 **P5: LangChain Projects**
+
+| Project | Description | Tech Stack |
+|---------|-------------|------------|
+| **Chatbot with LangChain** | Build intelligent chatbot using LangChain + LLM + Streamlit | LangChain, Streamlit, Ollama/OpenAI |
+| **Document Summarizer** | Summarize PDF/Text documents with LLMs | LangChain, PyPDF, Hugging Face Transformers |
+
+---
+
+## **14. RAG (Retrieval Augmented Generation)**
+
+| S.No | Topic | Description | Resources |
+|------|-------|-------------|-----------|
+| 34 | **RAG Fundamentals** | Retrieval pipeline, embedding models, vector similarity | [RAG Tutorial](https://youtu.be/X0btK9X0Xnk) · [LangChain RAG](https://python.langchain.com/docs/tutorials/rag/) |
+| 35 | **Advanced RAG** | Multi-query retrieval, re-ranking, hybrid search | [Pinecone RAG Guide](https://www.pinecone.io/learn/retrieval-augmented-generation/) |
+
+### 🛠 **P6: RAG Projects**
+
+| Project | Description | Tech Stack |
+|---------|-------------|------------|
+| **PDF Q&A with RAG** | Upload PDF → extract → chunk → embed → query via LLM | LangChain, FAISS, OpenAI/Groq, Streamlit |
+| **Multi-Document RAG** | Query across multiple documents with source attribution | ChromaDB, LangChain, sentence-transformers |
+
+---
+
+## **15. Vector Databases**
+
+| S.No | Topic | Description | Resources |
+|------|-------|-------------|-----------|
+| 36 | **Vector DB Fundamentals** | FAISS, ChromaDB, Pinecone, Weaviate, similarity search | [Pinecone Docs](https://docs.pinecone.io/) · [ChromaDB](https://docs.trychroma.com/) |
+| 37 | **Embedding Models** | sentence-transformers, OpenAI embeddings, custom embeddings | [Sentence Transformers](https://www.sbert.net/) |
+
+---
+
+## **16. Agentic AI**
+
+| S.No | Topic | Description | Resources |
+|------|-------|-------------|-----------|
+| 38 | **AI Agent Fundamentals** | Agent architecture, planning, tool use, memory systems | [Lilian Weng's Blog](https://lilianweng.github.io/posts/2023-06-23-agent/) |
+| 39 | **Tool-Using Agents** | Function calling, external APIs, code execution | [OpenAI Function Calling](https://platform.openai.com/docs/guides/function-calling) |
+| 40 | **Multi-Agent Systems** | Agent collaboration, communication protocols | [AutoGen](https://github.com/microsoft/autogen) · [CrewAI](https://github.com/joaomdmoura/crewAI) |
+| 41 | **ReAct & Planning** | Reasoning + Acting, chain-of-thought for agents | [ReAct Paper](https://arxiv.org/abs/2210.03629) |
+
+### 🛠 **P7: Agentic AI Projects**
+
+| Project | Description | Tech Stack |
+|---------|-------------|------------|
+| **Research Assistant Agent** | AI agent that can search web, summarize, and synthesize information | LangChain, Tavily/SerpAPI, OpenAI |
+| **Code Review Agent** | Agent that reviews code, suggests improvements, runs tests | GitHub API, LangChain, code execution tools |
+
+---
+
+
+## **17. Large Language Models (LLMs) - Advanced**
 
 | S.No | Topic | Description | Resources |
 |------|-------|-------------|-----------|
@@ -182,66 +251,6 @@ This cheatsheet serves as a practical roadmap and resource guide for anyone look
 
 ---
 
-## **14. Introduction to LangChain**
-
-| S.No | Topic | Description | Resources |
-|------|-------|-------------|-----------|
-| 31 | **LangChain Fundamentals** | Components, Chains, Agents, Memory | [LangChain Docs](https://python.langchain.com/docs/introduction/) · [LangChain Tutorial](https://youtu.be/X0btK9X0Xnk) |
-| 32 | **LLM Integration** | OpenAI, Ollama, Hugging Face, Groq integration | [Ollama Setup](https://ollama.ai/) · [Groq API](https://groq.com/) |
-| 33 | **Prompt Engineering** | Zero-shot, few-shot, chain-of-thought, prompt optimization | [OpenAI Cookbook](https://github.com/openai/openai-cookbook) · [Prompt Engineering Guide](https://www.promptingguide.ai/) |
-
-### 🛠 **P4: LangChain Projects**
-
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| **Chatbot with LangChain** | Build intelligent chatbot using LangChain + LLM + Streamlit | LangChain, Streamlit, Ollama/OpenAI |
-| **Document Summarizer** | Summarize PDF/Text documents with LLMs | LangChain, PyPDF, Hugging Face Transformers |
-
----
-
-## **15. RAG (Retrieval Augmented Generation)**
-
-| S.No | Topic | Description | Resources |
-|------|-------|-------------|-----------|
-| 34 | **RAG Fundamentals** | Retrieval pipeline, embedding models, vector similarity | [RAG Tutorial](https://youtu.be/X0btK9X0Xnk) · [LangChain RAG](https://python.langchain.com/docs/tutorials/rag/) |
-| 35 | **Advanced RAG** | Multi-query retrieval, re-ranking, hybrid search | [Pinecone RAG Guide](https://www.pinecone.io/learn/retrieval-augmented-generation/) |
-
-### 🛠 **P5: RAG Projects**
-
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| **PDF Q&A with RAG** | Upload PDF → extract → chunk → embed → query via LLM | LangChain, FAISS, OpenAI/Groq, Streamlit |
-| **Multi-Document RAG** | Query across multiple documents with source attribution | ChromaDB, LangChain, sentence-transformers |
-
----
-
-## **16. Vector Databases**
-
-| S.No | Topic | Description | Resources |
-|------|-------|-------------|-----------|
-| 36 | **Vector DB Fundamentals** | FAISS, ChromaDB, Pinecone, Weaviate, similarity search | [Pinecone Docs](https://docs.pinecone.io/) · [ChromaDB](https://docs.trychroma.com/) |
-| 37 | **Embedding Models** | sentence-transformers, OpenAI embeddings, custom embeddings | [Sentence Transformers](https://www.sbert.net/) |
-
----
-
-## **17. Agentic AI**
-
-| S.No | Topic | Description | Resources |
-|------|-------|-------------|-----------|
-| 38 | **AI Agent Fundamentals** | Agent architecture, planning, tool use, memory systems | [Lilian Weng's Blog](https://lilianweng.github.io/posts/2023-06-23-agent/) |
-| 39 | **Tool-Using Agents** | Function calling, external APIs, code execution | [OpenAI Function Calling](https://platform.openai.com/docs/guides/function-calling) |
-| 40 | **Multi-Agent Systems** | Agent collaboration, communication protocols | [AutoGen](https://github.com/microsoft/autogen) · [CrewAI](https://github.com/joaomdmoura/crewAI) |
-| 41 | **ReAct & Planning** | Reasoning + Acting, chain-of-thought for agents | [ReAct Paper](https://arxiv.org/abs/2210.03629) |
-
-### 🛠 **P6: Agentic AI Projects**
-
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| **Research Assistant Agent** | AI agent that can search web, summarize, and synthesize information | LangChain, Tavily/SerpAPI, OpenAI |
-| **Code Review Agent** | Agent that reviews code, suggests improvements, runs tests | GitHub API, LangChain, code execution tools |
-
----
-
 ## **18. LangGraph & Advanced Agents**
 
 | S.No | Topic | Description | Resources |
@@ -250,7 +259,7 @@ This cheatsheet serves as a practical roadmap and resource guide for anyone look
 | 43 | **Complex Agent Workflows** | Multi-step reasoning, conditional flows, human-in-the-loop | [Campus X](https://youtube.com/playlist?list=PLKnIA16_RmvYsvB8qkUQuJmJNuiCUJFPL&si=mPhMTMc3PnnHBMNG) |
 | 44 | **Agent Orchestration** | Managing multiple agents, workflow optimization |[Campus X](https://youtube.com/playlist?list=PLKnIA16_RmvYsvB8qkUQuJmJNuiCUJFPL&si=mPhMTMc3PnnHBMNG) |
 
-### 🛠 **P7: LangGraph Projects**
+### 🛠 **P8: LangGraph Projects**
 
 | Project | Description | Tech Stack |
 |---------|-------------|------------|
@@ -285,7 +294,6 @@ This cheatsheet serves as a practical roadmap and resource guide for anyone look
 - [IBM Technology](https://www.youtube.com/@IBMTechnology) - Fast recap while interviews
 - [Codebasics](https://www.youtube.com/@codebasics) - extras
 - [FreeCodeCamp](https://www.youtube.com/@freecodecamp) - extras
-
 - [Andrej Karpathy](http://www.youtube.com/channel/UCXUPKJO5MZQN11PqgIvyuvQ)  
 - [Jeremy Howard](http://www.youtube.com/user/howardjeremyp)  
 - [3Blue1Brown](http://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)  
@@ -324,3 +332,8 @@ Feel free to contribute to this roadmap by:
 ## ⭐ **Star this repository if you find it helpful!**
 
 *This roadmap is continuously updated with the latest developments in Generative AI and Machine Learning.*
+
+## 📌 Additional
+
+- **Follow me on X:** https://x.com/lochan_twt  
+- **Buy me a coffee:** https://buymeacoffee.com/srilochan7p
